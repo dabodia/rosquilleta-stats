@@ -1,0 +1,37 @@
+.footer {
+  border-top: 0.1rem solid #E2E8F0;
+  margin-top: auto;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.6rem;
+  margin: 0 auto;
+  max-width: 140rem;
+  color: #452c37;
+}
+
+.footer__copy {
+  font-size: 14px;
+}
+
+.footer__github {
+  display: flex;
+  align-items: center;
+  color: #452c37;
+  font-size: 14px;
+}
+
+.footer__github svg {
+  height: 1.6rem;
+  width: 1.6rem;
+  margin-right: 0.8rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__container {
+    padding: 1rem 2.4rem;
+  }
+}

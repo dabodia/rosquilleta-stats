@@ -1,0 +1,62 @@
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heading--title {
+  font-size: 4.8rem;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+}
+
+.heading--main {
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading--sub {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.heading--small {
+  font-size: 2.4rem;
+}
+
+.heading--underline {
+  background: linear-gradient(#ffcce0, #ffcce0);
+  background-repeat: no-repeat;
+	background-size: 90% 30%;
+  background-position: 0 90%;
+}
+
+/* Text & paragraphs */
+p {
+  font-size: 2rem;
+}
+
+/* Lists */
+ul, ol, dl {
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+/* Useful classes */
+.highlighted-text {
+  color: #ab0833;
+  font-weight: 600;
+  font-size: 110%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Text & paragraphs */
+  p {
+    font-size: 2.4rem;
+  }
+
+  /* Lists */
+  ul, ol, dl {
+    font-size: 2.4rem;
+  }
+}

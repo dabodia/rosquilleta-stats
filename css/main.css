@@ -1,0 +1,135 @@
+/* Main content + content sections */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  max-width: 110rem;
+  margin: 3.2rem auto;
+  padding: 1.6rem;
+}
+
+.content__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content__section:not(:first-of-type) {
+  padding-top: 4.8rem;
+  border-top: 0.1rem dashed #ffcce0;
+}
+
+/* Year index */
+.year-index .heading--title {
+  margin-bottom: 4rem;
+}
+
+.year-index__item {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+
+.year-index__link {
+  color: #000;
+}
+
+/* Main description for page title - info on homepage */
+.main-description {
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.main-info {
+  display: flex;
+  font-size: 2rem;
+  color: #666;
+}
+
+.main-info svg {
+  margin-right: 0.8rem;
+}
+
+/* Sections on each page */
+.totals,
+.types,
+.main-emojis,
+.top-emojis,
+.hours,
+.words {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 2.4rem 0;
+}
+
+.totals-wrapper {
+  padding: 2.4rem 0;
+}
+
+.totals-wrapper .totals {
+  padding: 0;
+}
+
+.types__item {
+  font-size: 2rem;
+  min-width: 8rem;
+}
+
+.types__item svg {
+  margin-bottom: 0.8rem;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+/* Emoji stats */
+.main-emojis > * {
+  font-weight: 600;
+}
+
+.main-emojis__used .highlighted-text {
+  font-size: 4.8rem;
+}
+
+.main-emojis__most-used {
+  display: flex;
+  align-items: center;
+}
+
+.main-emojis__most-used .big-emoji {
+  font-size: 3.2rem;
+  margin-right: 1rem;
+}
+
+.top-emojis {
+  flex-wrap: nowrap;
+}
+
+.top-emojis__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hour & Word stats */
+.hours__item p,
+.words__item p {
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .types__item {
+    font-size: 2.4rem;
+  }
+
+  .main-emojis {
+    gap: 3.2rem;
+  }
+
+  .main-emojis__most-used .big-emoji {
+    font-size: 4.8rem;
+  }
+}
